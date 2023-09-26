@@ -14,7 +14,7 @@ header {
 
 #logo {
     padding: 16px 0;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -28,6 +28,43 @@ header {
     border-radius: 40px;
     align-items: center;
     padding: 16px 0;
+}
+
+.flex-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-item {
+    margin: 0 15px;
+}
+
+.icona-download {
+    height: 20px;
+}
+
+.mac-button {
+    width: 219px;
+    height: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+    border: none;
+    border-radius: 90px;
+    font-size: 18px;
+    background-color: white;
+}
+
+.browser-button {
+    width: 290px;
+    height: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+    border: none;
+    border-radius: 90px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
 }
 
 #jumbotron {
@@ -44,7 +81,7 @@ header {
 }
 
 .jumbo-item {
-    padding: 40px 0;
+    padding: 29px 0;
 }
 
 .titolo {
@@ -150,7 +187,7 @@ span {
 .bottone-finale {
     flex-direction: row;
     display: flex;
-    width: 180px;
+    width: 200px;
     justify-content: space-evenly;
     align-items: center;
     border-radius: 181px;
@@ -158,8 +195,9 @@ span {
     border: none;
     background-color: #8ea1e1;
     color: white;
+    font-size: 18px;
 }
 
 .dimensione-freccia {
-    height: 10px;   
+    height: 15px;   
 }
