@@ -71,24 +71,95 @@ header {
 	min-height: 550px;
 	padding: 64px 0;
 }
+
 .bigColumn {
 	width: 67%;
-}
-
-.img1 {
-    background-image: url(../img/item1.svg);
-    background-size: cover;
+	
 }
 
 .smallColumn {
 	width: 33%;
-    justify-content: center;
+    justify-content: flex-start;
     display: flex;
     flex-direction: column;
     color: black;
+    padding-top: 20px;
 }
 
 span {
     font-size: 50px;
     font-weight: 700;
+}
+
+.img-study {
+    background-image: url(../img/item1.svg);
+    background-size: 905px 393px;
+}
+
+.img-voice {
+	background-image: url(../img/item2.svg);
+    background-size: 905px 400px;
+}
+
+.img-coach {
+	background-image: url(../img/item3.svg);
+    background-size: 905px 413px;
+}
+
+.img-justchilling {
+	background-image: url(../img/item4-big.svg);
+    background-size: 1400px 693px;
+}
+
+.dir-column {
+    flex-direction: column;
+    align-items: center;
+}
+
+.first-column {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    padding: 20px 35px 0 35px
+}
+.second-column {
+    width: 100%;
+    height: 700px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.third-column{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    padding: 0px 35px 20px 35px
+}
+
+.titolo-avventura {
+    font-size: 30px;
+    font-weight: 600;
+    padding: 0 0 20px 0;
+}
+
+.bottone-finale {
+    flex-direction: row;
+    display: flex;
+    width: 180px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 181px;
+    height: 50px;
+    border: none;
+    background-color: #8ea1e1;
+    color: white;
+}
+
+.dimensione-freccia {
+    height: 10px;   
 }
