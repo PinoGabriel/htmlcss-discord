@@ -1,0 +1,43 @@
+body {
+    background-color: #222222;
+    color: white;
+}
+
+header {
+    background-color: #3161e0;
+}
+
+#topheader {
+    padding: 16px 0;
+    justify-content: space-between;
+}
+
+#logo {
+    padding: 16px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+#link {
+    align-items: center;
+    justify-content: center;
+}
+
+#login {
+    justify-content: flex-end;
+    border-radius: 40px;
+    align-items: center;
+    padding: 16px 0;
+}
+
+#jumbotron {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    padding: 255px 0;
+    max-width: 1900px;
+}
+
+.jumbo-content {
+    text-align: center;
+    padding: 64px 0;
+}
