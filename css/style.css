@@ -1,6 +1,6 @@
 body {
-    background-color: #222222;
     color: white;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header {
@@ -32,12 +32,63 @@ header {
 
 #jumbotron {
     background-image: url(../img/jumbo.png);
-    background-size: cover;
-    padding: 255px 0;
-    max-width: 1900px;
+    background-size: 1903px 730px;
+    padding: 50px 0;
+    min-width: 1900px;
 }
 
 .jumbo-content {
     text-align: center;
-    padding: 64px 0;
+    padding: 64px 100px;
+    flex-direction: column;
+}
+
+.jumbo-item {
+    padding: 40px 0;
+}
+
+.titolo {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.sottotitolo {
+    font-size: 25px;
+}
+
+.bottone-mac {
+    border: none;
+    background-color: white;
+    color: black;
+    border-radius: 100px;
+    padding: 26px;
+}
+
+.flex-container {
+	display: flex;
+	max-width: 1400px;
+	margin: 0 auto;
+	min-height: 550px;
+	padding: 64px 0;
+}
+.bigColumn {
+	width: 67%;
+}
+
+.img1 {
+    background-image: url(../img/item1.svg);
+    background-size: cover;
+}
+
+.smallColumn {
+	width: 33%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
+span {
+    font-size: 50px;
+    font-weight: 700;
 }
