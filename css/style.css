@@ -201,3 +201,60 @@ span {
 .dimensione-freccia {
     height: 15px;   
 }
+
+.sfondo-footer {
+    background-color: #23272a;
+}
+
+.footer-item {
+    width: 25%;
+}
+
+.dimensione-bandiera {
+    height: 10px;
+    margin: 0 4px 0 0; 
+}
+
+.filter {
+    filter: invert(1);
+    margin: 7px 0 0 4px;
+    height: 12px;
+}
+
+.direction-column {
+    flex-direction: column;
+}
+
+.testo-span {
+    color: #7289da;
+    font-size: 30px;
+}
+
+.p-item {
+    padding: 10px 0;
+    font-weight: 500;
+}
+
+.colore-intestazione {
+    color: #7289da;
+}
+
+hr {
+    margin: 0 250px;
+}
+
+.last-container {
+    display: flex;
+    min-height: 200px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 64px 0;
+    align-items: center;
+    background-color: aliceblue;
+
+}
+
+.topfooter {
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
